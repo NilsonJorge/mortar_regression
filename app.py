@@ -7,9 +7,7 @@ from sklearn.metrics import r2_score
 from sklearn.model_selection import KFold, cross_val_score, train_test_split
 from st_on_hover_tabs import on_hover_tabs
 import pickle
-import joblib
 
-import cloudpickle
 
 SCALE = 'scale.sav'
 MODEL = 'melhor_modelo.pkl'
